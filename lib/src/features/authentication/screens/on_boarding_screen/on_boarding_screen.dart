@@ -1,15 +1,11 @@
-import 'package:dwumapa/src/constants/sizes.dart';
 import 'package:dwumapa/src/features/authentication/controllers/onboarding_screen_controller.dart';
-import 'package:dwumapa/src/features/authentication/screens/on_boarding_screen/on_boarding_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../../../constants/colors.dart';
-import '../../../../constants/image_strings.dart';
-import '../../../../constants/text_strings.dart';
-import '../../models/model_on_boarding.dart';
+
 
 class OnBoardingScreen extends StatelessWidget {
     const OnBoardingScreen({Key? key}) : super(key: key);

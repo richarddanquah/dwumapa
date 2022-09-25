@@ -5,6 +5,6 @@ class SplashScreenController extends GetxController {
   static SplashScreenController get find => Get.find();
   Future startAnimation() async {
     await Future.delayed(const Duration(milliseconds: 5000));
-    Get.to(() =>  OnBoardingScreen());
+    Get.to(() =>  const OnBoardingScreen());
   }
 }
